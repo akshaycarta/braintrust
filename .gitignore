@@ -1,0 +1,6 @@
+# Ignore input documents directory
+input_docs/
+
+# Ignore all PDF files
+*.pdf
+*.json
