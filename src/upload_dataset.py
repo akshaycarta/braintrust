@@ -35,9 +35,6 @@ def create_dataset_from_files():
         # Your code here
         pass
     
-    # TODO: Save the dataset
-    # Your code here
-    
     print("Dataset upload completed!")
 
 if __name__ == "__main__":
