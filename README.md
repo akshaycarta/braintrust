@@ -54,7 +54,7 @@ poetry shell
 
 If you used pip, you're ready to go!
 
-## Vibe Coding Session
+## Session Goals
 
 This session focuses on two main tasks:
 
@@ -72,11 +72,14 @@ This session focuses on two main tasks:
 
 ### Step 1: Place Your Documents
 
-Download documents from the google drive and place them in the `input_docs/` directory.
+Download documents from the google drive and place them in the `input_docs/` directory. 
 
-URL: https://drive.google.com/drive/folders/1ohT5_grv_0fEbYhjMpt2I2mL283hzz2n
+**DO NOT COMMIT THE DOCS** since this is a public repo
 
-```
+
+
+
+
 ### Step 2: Upload Dataset
 ```bash
 # Complete the TODOs in this file, then run:
