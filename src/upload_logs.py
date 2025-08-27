@@ -18,7 +18,7 @@ def process_test_dataset():
     
     # TODO: Load a prompt from Braintrust
 
-    prompt : Prompt =  load_prompt("your_project_name", "your_prompt_slug")
+    prompt : Prompt =  load_prompt("your_project_name", "your-prompt-slug")
     
     # TODO: Initialize OpenAI client with Braintrust tracking
     # Hint: Use wrap_openai(OpenAI()) to enable automatic logging
