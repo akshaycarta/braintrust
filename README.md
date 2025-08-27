@@ -31,8 +31,8 @@ cp .env.example .env
 Edit `.env` and add your API keys:
 
 ```
-export BRAINTRUST_API_KEY=your_api_key_here
-export OPENAI_API_KEY=your_openai_api_key_here
+BRAINTRUST_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 Load the environment variables:
