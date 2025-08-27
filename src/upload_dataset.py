@@ -33,7 +33,7 @@ def create_dataset_from_files():
         # TODO: Insert file into dataset
         # Hint: Use dataset.insert() with Attachment
         # dataset.insert(
-        #     input={"file": Attachment(filename=filename, data=file_path)},
+        #     input={"file": Attachment(filename=filename, data=file_path, content_type="application/pdf")},
         #     expected=map_file_to_expected_output(file_name)<-- This needs to be pulled in from the ground_truth_pcap_extractions.json
         # )
         # Your code here
