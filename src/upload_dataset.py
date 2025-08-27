@@ -17,7 +17,7 @@ def create_dataset_from_files():
     
     # TODO: Get all files from input_docs directory
     # Hint: Use glob.glob() to find files (e.g., "./input_docs/**/*.pdf")
-    input_dir = "./input_docs"
+    input_dir = "./input_docs/Training Dataset"
     files = []  # Your code here
     
     print(f"Found {len(files)} files to upload")
