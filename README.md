@@ -59,7 +59,12 @@ This session focuses on two main tasks:
 - Create datasets with file attachments
 - Simple TODO items to complete
 
-### 2. Upload Logs (`upload_logs.py`) 
+### 2. Create Prompt, Scorer and Experiment in Braintrust
+- Create and iterate on a prompt that gets you as close to the the expected output
+- Run an experiment to measure prompt performance using scorers
+- Save the final version of your prompt
+
+### 3. Upload Logs (`upload_logs.py`) 
 - Load prompts from Braintrust
 - Make API calls to OpenAI
 - Log interactions for tracking and evaluation
