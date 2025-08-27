@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "braintrust-scripts"
+version = "0.1.0"
+description = "Scripts for Braintrust operations"
+authors = [{name = "Akshay Anand Babu", email = "akshay.babu@carta.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "braintrust>=0.2.3",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
