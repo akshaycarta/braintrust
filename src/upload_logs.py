@@ -6,7 +6,7 @@ Complete the TODO items and run this script.
 
 import os
 import glob
-from braintrust import init_logger, load_prompt, wrap_openai
+from braintrust import init_logger, load_prompt, wrap_openai, Prompt
 from openai import OpenAI
 
 # TODO: Initialize Braintrust logger with your project name
@@ -17,8 +17,8 @@ def process_test_dataset():
     """Process all PDFs in the test dataset using a saved prompt from Braintrust."""
     
     # TODO: Load a prompt from Braintrust
-    # Hint: Use load_prompt("project_name", "prompt_slug")
-    prompt = None  # Your code here
+
+    prompt : Prompt =  load_prompt("your_project_name", "your_prompt_slug")
     
     # TODO: Initialize OpenAI client with Braintrust tracking
     # Hint: Use wrap_openai(OpenAI()) to enable automatic logging
