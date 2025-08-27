@@ -8,6 +8,10 @@ import os
 import glob
 from braintrust import init_dataset, Attachment
 
+def map_file_to_expected_output(file_name) -> dict:
+    """Map a file to its expected output."""
+    # TODO: Implement this function
+    pass
 
 def create_dataset_from_files():
     """Create a Braintrust dataset from files in the input_docs directory."""
@@ -30,7 +34,7 @@ def create_dataset_from_files():
         # Hint: Use dataset.insert() with Attachment
         # dataset.insert(
         #     input={"file": Attachment(filename=filename, data=file_path)},
-        #     expected="expected_output" <-- This needs to be pulled in from the ground_truth_pcap_extractions.json
+        #     expected=map_file_to_expected_output(file_name)<-- This needs to be pulled in from the ground_truth_pcap_extractions.json
         # )
         # Your code here
         pass
