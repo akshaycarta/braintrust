@@ -8,21 +8,17 @@ This repository contains examples and tools for working with Braintrust to uploa
 
 Choose either Poetry or pip:
 
-#### Option A: Using Poetry
-If you don't have Poetry installed:
+#### Option A: Using pip (Recommended)
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+pip install -e .
 ```
+#### Option B: Using Poetry
 
-Then install dependencies:
 ```bash
 poetry install
 ```
 
-#### Option B: Using pip
-```bash
-pip install -e .
-```
+
 
 ### 2. Environment Setup
 
