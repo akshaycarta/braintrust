@@ -73,12 +73,9 @@ This session focuses on two main tasks:
 
 ### Step 1: Place Your Documents
 
-Download documents from the google drive and place them in the `input_docs/` directory. 
+Create an `input_docs` folder and place the downloaded documents from the google drive.  
 
 **DO NOT COMMIT THE DOCS** since this is a public repo
-
-
-
 
 
 ### Step 2: Upload Dataset
